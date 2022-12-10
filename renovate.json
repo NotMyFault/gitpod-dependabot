@@ -9,7 +9,7 @@
     {
       "fileMatch": [".gitpod/Dockerfile"],
       "matchStrings": ["ARG MAVEN_VERSION=(?<currentValue>.*?)\n"],
-      "depNameTemplate": "maven-core",
+      "depNameTemplate": "org.apache.maven:maven-core",
       "datasourceTemplate": "maven"
     }
   ],
